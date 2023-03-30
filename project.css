@@ -1,0 +1,424 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:monster ;
+    src: url(./FontsFree-Net-aa.ttf);
+}
+p,h1,h3,a,li
+{
+    font-family:'monster' ;
+}
+.background video
+{
+    position: absolute;
+    height: 120vh;
+    width: 100%;
+    margin-top: -30px;
+    /* margin-bottom: -500px; */
+    /* display:flex; */
+}
+
+nav
+{
+    position: absolute;
+    padding: 90px;
+}
+.navlogo  h3
+{
+    position: relative;
+    color: white;
+    top: 10px;
+    margin-left: 20px;
+    font-size: 2rem;
+}
+.navlogo a
+{
+    text-decoration: none;
+}
+
+nav ul
+{
+    /* display: inline; */
+    float: right;
+}
+
+nav li
+{
+    position: relative;
+    display: inline;
+    float: left;
+    margin-right: 5px;
+    left: 600px;
+    bottom: 100px;
+    text-transform: uppercase;
+    padding:10px;
+    font-size:18px
+
+}
+
+
+nav a
+{
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav .button
+{
+
+    padding: 9px 10px 10px 9px ;
+    background-color: #b5cbb3;
+}
+
+nav a:hover
+{
+    /* text-decoration: underline; */
+    border-bottom: 2px solid white;
+}
+
+.centerlogo h1
+{
+    display: inline;
+    position: relative;
+    color: white;
+    /* text-align: center; */
+    font-size: 150px;
+    top: 250px;
+    left:560px
+}
+
+.booking
+{
+    position:relative;
+    background-color:#fff5e9 ;
+    padding: 0px 0px 30px 0px;
+    margin: -163px 0px 0px 0px;
+    top: 450px;
+}
+
+
+.fields
+{
+    position: relative;
+    background-color: #254742;
+    margin: 200px 350px 0px 350px;
+    padding: 30px 0px 20px 60px;
+    bottom: 76px;
+}
+form
+{
+    /* display: INLINE; */
+    /* grid-template-columns: 1fr 1fr ; */
+    display: flex;
+    /* margin: 10px; */
+
+}
+    
+/* .fields label
+{
+    color: white;
+} */
+
+form input,select
+{
+    margin: 5px 15px 12px -5px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+button
+{
+    margin: 20px 0px 5px 4px;
+    padding: 5px 40px 5px 40px;
+    background-color: #b5cbb3;
+}
+
+.link a
+{
+    /* text-align: center; */
+    /* text-decoration: none; */
+    color: white;
+    margin-left: 250px;
+}
+.paras
+{
+    line-height:2 ;
+    text-align:center ;
+    background-color:#fff5e9;
+    margin-top: -172px;
+    padding-top: 200px;
+    margin-bottom: 80px;
+
+}
+.paras a
+{
+    text-decoration: none;
+    margin:40px 10px 0px 0px;
+    border:1px solid #b5cbb3;
+    background-color: #b5cbb3;
+    padding:10px;
+    color:black;
+   
+}
+.paras .lp
+{
+    margin-bottom: 50px;
+}
+.row1{
+    display:flex;
+}
+.images .row1_img1
+{
+    height:350px ;
+    width:33.33%;
+    background: url("https://images.ctfassets.net/j9domijbag84/4vCq1AkhlInDsRgdqAnQsj/2ecb74031288e42402da40d8b0893a1b/Bottomless_Brunch_Sm.webp") center no-repeat ;
+    text-align: center;
+    padding-top:60px;
+    position:relative;
+    isolation: isolate;
+    /* opacity:0.7; */
+}
+.images .row1_img1::after
+{
+    content:'';
+    position:absolute;
+    background-color: #254742;
+    opacity:0.6;
+    z-index:-1;
+}
+.row1_img1 h1
+{
+    color:rgba(255, 255, 255, 0.974);
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: mostra-nuova-family;
+    margin-bottom:40px;
+}
+.row1_img1 p{
+    color:white ;
+    font-size:1rem;
+    margin:0px 0px 70px 0px;
+
+}
+.row1_img1 a
+{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:1px solid #b5cbb3;
+    background-color: #b5cbb3;
+    padding:20px;
+}
+
+.images .row1_img2
+{
+    height:350px;
+    width:33.33%;
+    background:url("https://images.ctfassets.net/j9domijbag84/BsQ7dL3mY0kmmXTY0QLO4/a6ec241c42d3fa2fe8c38c21ef4cea22/BELLA_YORK_300dpi_-_2__2_.webp") center no-repeat ;
+    display:flex ;
+}
+.images .row1_img3
+{
+    height:350px;
+    width:33.33%;
+    background:url("https://images.ctfassets.net/j9domijbag84/2BjyhJV1IioFIwNHGV2xFC/aa2f6e02ed427b5e9dbb21632025cf85/Untitled_design__17_.png") center no-repeat ;
+    text-align: center;
+    padding:40px 0px 0px 0px;
+}
+.row1_img3 h1
+{
+    text-transform:uppercase;
+    color:#fff5e9;
+    margin:0px 0px 40px 0px;
+}
+.row1_img3 p{
+    color:white;
+    margin-bottom: 70px;
+}
+.row1_img3 a
+{
+    text-decoration:none ;
+    text-transform: uppercase;
+    color:white;
+    border: 1px solid #b5cbb3;
+    padding:20px;
+    background-color: #b5cbb3;
+}
+.row2
+{
+    display:flex;
+}
+.row2_img1
+{
+    height:350px;
+    width:33.33%;
+    background:url("https://images.ctfassets.net/j9domijbag84/8Lif9K2nRE5uxbpJqk4uv/24d6e7533f43ae255544242f767f0e1c/Bella_Italia_-_Blackpool_-_High_Res-9__1___2_.webp") center ;
+}
+.row2_img2
+{
+    height:350px;
+    width:33.33%;
+    background:url("https://images.ctfassets.net/j9domijbag84/4cqnO6OWG3GFOa4ARXvl8f/b9d47f4b4b98e519b4e9144de01543b0/C_C_Image_Desktop.jpg") center ;
+    text-align: center;   
+}
+.row2_img2 h1
+{
+    color:white;
+    margin:50px 0px 40px 0px;
+    text-transform: uppercase;
+}
+.row2_img2 p
+{
+    color:white;
+    margin-bottom: 60px;
+}
+.row2_img2 a
+{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    border:1px solid #b5cbb3;
+    background-color: #b5cbb3;
+    padding:20px;
+}
+.row2_img3
+{
+    height:350px;
+    width:33.33%;
+    background:url("https://images.ctfassets.net/j9domijbag84/37djFfakCzmTsZnYAyDj16/25e5ff46c5f92f437ea40041fa58c0d6/BELLA_SHEFFIELD.ARENA_72dpi_-_12__2___1_.webp") center no-repeat;
+}
+.row3
+{
+    display: flex;
+}
+.row3_img1
+{
+  height:350px;
+  width:33.33%;
+  background:url("https://images.ctfassets.net/j9domijbag84/4nK5bGh1vmH8cyr49YIQyj/18975ff1e83d144ff98cc19c8f1393e5/ezgif.com-gif-maker_-_2022-06-22T131044.671.webp") center no-repeat ;
+  text-align: center;
+}
+.row3_img1 h1{
+    color:white;
+    margin:40px 0px;
+}
+.row3_img1 p
+{
+    color:white;
+    margin-bottom: 60px;
+}
+.row3_img1 a
+{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:1px solid #b5cbb3;
+    background-color: #b5cbb3;
+    padding:20px;
+}
+.row3_img2
+{
+    height: 350px;
+    width:33.33%;
+    background: url("https://images.ctfassets.net/j9domijbag84/1ja7wHlAKf3JmFBr6kMN2t/7d15d865e848fb84e4a248b3bc8e3f97/BELLA_NORWICH_72dpi_-_14__1_.webp") center no-repeat;
+
+}
+.row3_img3
+{
+    height:350px ;
+    width:33.33% ;
+    background: url("https://images.ctfassets.net/j9domijbag84/56X6hrAHtYM8qqnoht2Ulf/f1056986698383398f8d02723ed19ffc/Untitled_design__5_.png") center no-repeat;
+    text-align: center ;
+}
+.row3_img3 h1
+{
+    color:white;
+    margin:50px 0px;
+}
+.row3_img3 p
+{
+    color:white;
+    margin-bottom: 30px;
+}
+.row3_img3 a
+{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:1px solid #b5cbb3;
+    background-color: #b5cbb3;
+    padding:20px;
+}
+footer
+{
+    height:350px;
+    width:100%;
+    background-color: #b5cbb3;
+}
+footer h4
+{
+    text-transform: uppercase;
+    /* position:absolute; */
+    
+}
+footer .flogo
+{
+    display:flex;
+    padding:35px 0px 0px 40px;
+}
+footer .flogo a
+{
+    color:white;
+    text-decoration:none ;
+    text-transform: uppercase;
+    margin:0px 0px 0px 30px;
+    background-color: #244742;
+    padding:15px
+    /* position: absolute; */
+    /* left:100px */
+}
+.fimg
+{
+   display:flex;
+   margin:60px 30px; 
+}
+
+.fh4
+{
+    margin-top:100px;
+    margin-left: 30px;
+}
+.footerdivs
+{
+    position:absolute;
+    left:900px;
+    bottom:100px;
+    display:flex; 
+    /* margin:30px */
+}
+.footerdivs .fdiv1 a
+{
+    text-decoration: none;
+    color:#576163;
+    text-transform: uppercase;
+}
+.footerdivs .fdiv1 a:hover
+{
+    text-decoration: underline;
+}
+.footerdivs .fdiv2 a
+{
+    color:#576163;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left:150px;
+}
+.footerdivs .fdiv2 a:hover
+{
+    text-decoration: underline; 
+}
